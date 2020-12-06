@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.JsonAjax.Api.Web", "Demo.JsonAjax.Api.Web\Demo.JsonAjax.Api.Web.csproj", "{3624C2E0-F83B-4249-B3C1-99450C61CB1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.JsonAjax.Mvc.Web", "Demo.JsonAjax.Mvc.Web\Demo.JsonAjax.Mvc.Web.csproj", "{F7092834-2AA6-4423-BEFF-FC4AA95C33D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3624C2E0-F83B-4249-B3C1-99450C61CB1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3624C2E0-F83B-4249-B3C1-99450C61CB1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3624C2E0-F83B-4249-B3C1-99450C61CB1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3624C2E0-F83B-4249-B3C1-99450C61CB1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7092834-2AA6-4423-BEFF-FC4AA95C33D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7092834-2AA6-4423-BEFF-FC4AA95C33D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7092834-2AA6-4423-BEFF-FC4AA95C33D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7092834-2AA6-4423-BEFF-FC4AA95C33D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB59003D-041E-4FCC-94AD-6129CE30F537}
+	EndGlobalSection
+EndGlobal
