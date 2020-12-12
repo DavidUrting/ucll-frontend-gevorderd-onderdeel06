@@ -8,7 +8,14 @@ namespace Demo.JsonAjax.Api.Web.Controllers
     [ApiController]
     public class ChatController : ControllerBase
     {
-        private static List<ChatMessage> _allMessages = new List<ChatMessage>();
+        private static List<ChatMessage> _allMessages = new List<ChatMessage>()
+        {
+            new ChatMessage()
+            {
+                Nickname = "System",
+                Message = "Server is up!"
+            }
+        };
 
         [HttpGet]
         public IEnumerable<ChatMessage> Get()

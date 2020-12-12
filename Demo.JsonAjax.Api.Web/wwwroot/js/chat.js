@@ -40,10 +40,10 @@ function getMessages() {
         .catch((error) => { // Als er iets misloopt in de ‘ketting’
             console.error(error);
         });
-
-    // Binnen 1 seconde zichzelf weer aanroepen
-    setTimeout(getMessages, 1000);
 }
 
 // Een eerste maal de messages ophalen
 getMessages();
+
+// Elke seconden de messages opnieuw ophalen.
+setInterval(getMessages, 1000);
